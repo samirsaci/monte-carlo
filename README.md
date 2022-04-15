@@ -18,8 +18,8 @@ Some of these models find the right allocation of factories to meet the demand a
 
 Your network may lose robustness, especially if you have a very high seasonality of your demand (e-commerce, cosmetics, fast fashion).
 
-### Medium Article
-In this [Medium Article](https://towardsdatascience.com/robust-supply-chain-network-with-monte-carlo-simulation-21ef5adb1722), we will build a simple methodology to design a **Robust Supply Chain Network** using **Monte Carlo** simulation with Python.
+### Article
+In this [Article](https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/), we will build a simple methodology to design a **Robust Supply Chain Network** using **Monte Carlo** simulation with Python.
 
 
 ### Scenario
