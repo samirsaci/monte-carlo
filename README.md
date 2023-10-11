@@ -21,10 +21,13 @@ Your network may lose robustness, especially if you have a very high seasonality
 ### Article
 In this [Article](https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/), we will build a simple methodology to design a **Robust Supply Chain Network** using **Monte Carlo** simulation with Python.
 
+### 📘 Your complete guide for Supply Chain Analytics
+60+ case studies with source code, dummy data and mathematical concepts here 👉 [Analytics Cheat Sheet](https://bit.ly/supply-chain-cheat)
+
 ### Youtube Video
 Click on the image below to access a full tutorial video to understand the concept behind this solution
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=gF9ds3CH3N4"><img src="https://i.ytimg.com/an_webp/gF9ds3CH3N4/mqdefault_6s.webp?du=3000&sqp=CJCznp8G&rs=AOn4CLAeCt7MhEf1GfKwsMM2op2vjDwdlQ" alt="Explainer Video Link"></a>
+  <a href="https://www.youtube.com/watch?v=gF9ds3CH3N4"><img src="https://www.samirsaci.com/content/images/2023/02/Supply-Chain-Optimization.png" alt="Explainer Video Link"></a>
 </div>
 
 ### Scenario
