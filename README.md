@@ -2,21 +2,27 @@
 *Do you consider the fluctuation of your demand when you design a Supply Chain Network?*
 
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/1400/1*ygvI_dS3-aJ59DGAfplXnA.png">
-</p>
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/1400/1*ygvI_dS3-aJ59DGAfplXnA.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
+</p>>
 
 ### Objective
-Build a simple methodology of Supply Chain Network Design that is considering the fluctuation of the demand.
+Develop a simple methodology for Supply Chain Network Design that accounts for demand fluctuations.
 
 ### Introduction
-Supply chain optimization makes the best use of data analytics to find an optimal combination of factories and distribution centres to meet the demand of your customers.
+Supply chain optimisation leverages data analytics to identify the optimal combination of factories and distribution centres to meet customer demand.
 
-In many software and solutions in the market, the core structure behind is a Linear Programming Model.
-Some of these models find the right allocation of factories to meet the demand and minimize the costs assuming a constant demand.
+In many software and solutions on the market, the underlying structure is a Linear Programming Model.
+Some of these models determine the optimal factory allocation to meet demand and minimise costs, assuming constant demand.
 
 *What happens if the demand is fluctuating?*
 
-Your network may lose robustness, especially if you have a very high seasonality of your demand (e-commerce, cosmetics, fast fashion).
+Your network may lose robustness, especially if your demand is highly seasonal (e-commerce, cosmetics, fast fashion).
 
 ### Article
 In this [Article](https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/), we will build a simple methodology to design a **Robust Supply Chain Network** using **Monte Carlo** simulation with Python.
@@ -36,45 +42,80 @@ As the Head of Supply Chain Management of an international manufacturing company
 #### Demand
 It starts with the demand from your customers in 5 different markets (Brazil, USA, Germany, India and Japan).
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/900/1*kaitTBi4zOqq2nUarEa9Bg.png">
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/900/1*kaitTBi4zOqq2nUarEa9Bg.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
 </p>
 
 #### Supply Capacity
 You can open factories in the five markets. There is a choice between low and high-capacity facilities.
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/1030/1*5_ZYKy3NlszS6uV2IiSadQ.png">
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/1030/1*5_ZYKy3NlszS6uV2IiSadQ.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
 </p>
 
-#### Objective: minimize the total cost of production and shipment
+#### Objective: minimise the total cost of production and shipment
 The objective is to design  a new transportation plan to increase the average size of trucks by delivering more stores per route.
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/1400/1*QvlfMEtHPS9aq5lCLfc1bQ.png">
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/1400/1*QvlfMEtHPS9aq5lCLfc1bQ.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
 </p>
                                                                                                
 #### Demand Fluctuation
-In this solution we will consider a fluctuating demand (Normal Distribution) per market.
+In this solution, we will consider a fluctuating demand (Normal Distribution) per market.
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/1400/1*w6RHuzcgKzRFUicusEPgLg.png">
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/1400/1*w6RHuzcgKzRFUicusEPgLg.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
 </p>
 
 #### Methodology
 We'll run 50 scenarios and run a solver to find the optimal network.
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/1400/1*2cmp3ZRNHwMarV_2a0He1g.png">
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/1400/1*2cmp3ZRNHwMarV_2a0He1g.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
 </p>
 
 ##### Solution
 We'll then study the split of solutions and take the one that appears the most.
 <p align="center">
-  <img align="center" src="https://miro.medium.com/max/908/1*KZxf6N2-RlhIaV_zuzMSlA.png">
+  <a href="https://www.samirsaci.com/robust-supply-chain-networks-with-monte-carlo-simulation/" target="_blank" rel="noopener noreferrer">
+    <img
+      align="center"
+      src="https://miro.medium.com/max/908/1*KZxf6N2-RlhIaV_zuzMSlA.png"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
 </p>
                                                                                                
 
 ## Code
-This repository code you will find all the code used to explain the concepts presented in the article.
+In this repository, you will find all the code used to explain the concepts presented in the article.
 
 ## About me 🤓
-Senior Supply Chain and Data Science consultant with international experience working on Logistics and Transportation operations. \
-For **consulting or advising** on analytics and sustainable supply chain transformation, feel free to contact me via [Logigreen Consulting](https://www.logi-green.com/)
-
+Senior Supply Chain and Data Science consultant with international experience working on Logistics and Transportation operations.\
+For **consulting or advising** on analytics and sustainable supply chain transformation, feel free to contact me via [Logigreen Consulting](https://www.logi-green.com/)\
 Please have a look at my personal blog: [Personal Website](https://samirsaci.com)
